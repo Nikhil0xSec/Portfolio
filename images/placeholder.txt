@@ -1,0 +1,9 @@
+You should add the following image files to this directory:
+
+1. profile.jpg - For the About Me section
+2. project1.jpg - For Project 1
+3. project2.jpg - For Project 2
+4. project3.jpg - For Project 3
+4. project4.jpg - For Project 4
+
+These images are referenced in the HTML and CSS files. You can replace them with your own images, just make sure to maintain the same filenames or update the references in the HTML file. 

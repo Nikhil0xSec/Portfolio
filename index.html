@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="light-mode">
+    <!-- Loader -->
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <h1>Nikhil</h1>
+        </div>
+        <nav class="nav">
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#timeline" class="nav-link">Journey</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="theme-toggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <canvas class="animated-bg"></canvas>
+      <div class="container">
+        <div class="hero-content">
+          <h2>Hello, I'm <span class="highlight">Nikhil Kumar Dev</span></h2>
+          <h3><span class="typed-text"></span></h3>
+          <p>
+            Enthusiastic and detail-oriented junior tech professional with a passion for problem-solving and
+            continuous learning. 
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-img">
+            <img src="assets/main images.jpg" alt="Profile Picture" />
+          </div>
+          <div class="about-text">
+            <p>
+              Enthusiastic and detail-oriented junior tech professional with a
+              passion for problem-solving and continuous learning. Seeking an
+              entry-level role where I can contribute to innovative projects and 
+              grow as a developer/technologist in a collaborative team environment.
+              
+            </p>
+            <p>
+              This foundational learning is complemented by exploring related technologies,
+               understanding that insight into how systems and applications are constructed 
+               is vital for identifying potential weaknesses and enhancing digital security.
+          
+            </p>
+            <!-- Skills Section -->
+            <div class="skills">
+              <h3>My Skills</h3>
+              <div class="skill-circles">
+                <div class="skill-circle" data-skill="fullstack">
+                  <svg viewBox="0 0 100 100">
+                    <circle class="skill-circle-bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="skill-circle-progress" cx="50" cy="50" r="45" data-percent="80"></circle>
+                  </svg>
+                  <span class="skill-name-circle">Fullstack</span>
+                  <span class="skill-percentage-circle">80%</span>
+                </div>
+                <div class="skill-circle" data-skill="video">
+                  <svg viewBox="0 0 100 100">
+                    <circle class="skill-circle-bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="skill-circle-progress" cx="50" cy="50" r="45" data-percent="75"></circle>
+                  </svg>
+                  <span class="skill-name-circle">DevOps</span>
+                  <span class="skill-percentage-circle">75%</span>
+                </div>
+                <div class="skill-circle" data-skill="vibe">
+                  <svg viewBox="0 0 100 100">
+                    <circle class="skill-circle-bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="skill-circle-progress" cx="50" cy="50" r="45" data-percent="80"></circle>
+                  </svg>
+                  <span class="skill-name-circle">Cybersecurity</span>
+                   <!---<span class="db-text">   </span> 
+                    <span class="management-text"> <p>Cybersecurity</p></span> -->
+                    <span class="skill-percentage-circle">70%</span>
+                  </span>
+                </div>
+                <div class="skill-circle" data-skill="photo">
+                  <svg viewBox="0 0 100 100">
+                    <circle class="skill-circle-bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="skill-circle-progress" cx="50" cy="50" r="45" data-percent="70"></circle>
+                  </svg>
+                  <span class="skill-name-circle">
+                    <span class="System-text">System</span>
+                    <span class="Design-text"> <p> Design </p> </span>
+                    
+                  <span class="skill-percentage-circle">70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Achievements</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="achievements-container">
+          <div class="achievements-grid">
+            <div class="achievement">
+              <div class="achievement-value" data-count="1">1</div>
+              <div class="achievement-label">Years Experience</div>
+            </div>
+            <div class="achievement">
+              <div class="achievement-value" data-count="5">0</div>
+              <div class="achievement-label">Projects Completed</div>
+            </div>
+            <div class="achievement">
+              <div class="achievement-value" data-count="4">0</div>
+              <div class="achievement-label">Happy Clients</div>
+            </div>
+            <div class="achievement">
+              <div class="achievement-value" data-count="5">0</div>
+              <div class="achievement-label">Prices</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Certifications & Badges</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="certifications-grid">
+          
+          <div class="certification-card" data-category="dsa">
+            <div class="cert-icon"><i class="fas fa-medal"></i></div>
+            <h3>DSA 160-Day Streak</h3>
+            <p>Completed 160 days streak of DSA in python on GeeksforGeeks.</p>
+            <div class="cert-issuer">GeeksforGeeks</div>
+            <a href="https://media.geeksforgeeks.org/courses/certificates/010ac32ca6a420ee6ed6a2470841c89d.pdf" class="btn btn-sm btn-secondary" target="_blank">View Credential</a>
+          </div>
+          
+          <div class="certification-card" data-category="cybersecurity">
+            <div class="cert-icon"><i class="fas fa-user-secret"></i></div>
+            <h3>TryHackMe | Practical Cybersecurity Proficiency</h3>
+            <p>Validated practical skills across multiple core cybersecurity domains.</p>
+            <div class="cert-issuer">TryHackMe Learning Paths</div>
+            <a href="https://tryhackme.com/p/Nikhil0xSec?tab=badges" class="btn btn-sm btn-secondary" target="_blank">View Public Profile & Badges</a>
+          </div>
+
+          <!-- <div class="certification-card" data-category="cloud">
+            <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+            <h3>Event Partcipants</h3>
+            <p>Fundamental understanding of AWS Cloud services and security.</p>
+            <div class="cert-issuer">Amazon Web Services (AWS)</div>
+            <a href="#" class="btn btn-sm btn-primary" target="_blank">View Credential</a>
+          </div> -->
+
+          <div class="certification-card" data-category="hackathon">
+            <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Hackathon 9.0 Participation</h3>
+            <p> Focused on rapid development and problem-solving methodologies.</p>
+            <div class="cert-issuer">SRMIST, Kattankulathur (Apr 2025) </div>
+            <a href="https://drive.google.com/file/d/1T6OgW4bJ8vZspZ_HsBE2ulJPm8DILtxZ/view?usp=sharing" class="btn btn-sm btn-secondary" target="_blank">View Certificate</a>
+          </div>
+
+          <div class="certification-card" data-category="creative-ai">
+            <div class="cert-icon"><i class="fas fa-palette"></i></div>
+            <h3>Lens Lumina - Creative AI Event</h3>
+            <p> Explored Creative AI frontiers, specializing in image prompt engineering.</p>
+            <div class="cert-issuer">SRMIST, Kattankulathur (Aug 2025) </div>
+            <a href="https://drive.google.com/file/d/1Z8prpjput62qaTGiuXe9GRoQwspfjJIm/view?usp=sharing" class="btn btn-sm btn-secondary" target="_blank">View Certificate</a>
+          </div>
+
+          <!---
+          <div class="certification-card" data-category="participation">
+            <div class="cert-icon"><i class="fas fa-handshake"></i></div>
+            <h3>Workshop on Ethical Hacking</h3>
+            <p>Participation in a 2-day workshop focused on penetration testing methodologies and security principles.</p>
+            <div class="cert-issuer">Tech Events 2025</div>
+            <a href="https://drive.google.com/file/d/1soBET4hXtJ_ztJBzSdnka5pW9YVJd2lY/view?usp=sharing" class="btn btn-sm btn-secondary" target="_blank">View Certificate</a>
+          </div> --->
+          </div>
+      
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Journey</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="timeline-container">
+          <div class="timeline">
+            <!-- Education Timeline Items -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-item-content">
+                <span class="timeline-category">Education</span>
+                <div class="timeline-item-date">2021 - 2023</div>
+                <h3 class="timeline-item-title">High School</h3>
+                <h4 class="timeline-item-subtitle">
+                  Arniko Awasiya secondary school
+                </h4>
+                <p class="timeline-item-description">
+                  Studied Science with a focus on . Graduated with honors.
+                </p>
+              </div>
+            </div>
+            <!-- Education Timeline Items -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-item-content">
+                <span class="timeline-category">Education</span>
+                <div class="timeline-item-date">2024 - 2028</div>
+                <h3 class="timeline-item-title">Bachelor's Degree</h3>
+                <h4 class="timeline-item-subtitle">
+                  SRM Institute of Science and Technology
+                </h4>
+                <p class="timeline-item-description">
+                  Studied Science with a focus on Computer Science. 
+                </p>
+              </div>
+            </div>
+
+            <!-- Work Experience Timeline Items -->
+             <!--<div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-item-content">
+                <span class="timeline-category">Experience</span>
+                <div class="timeline-item-date">2022 - Present</div>
+                <h3 class="timeline-item-title">Full Stack Developer</h3>
+                <h4 class="timeline-item-subtitle">Chaplin-brand</h4>
+                <p class="timeline-item-description">
+                  Lead developer for multiple web projects, managing front-end
+                  development and collaborating with design teams.
+                </p>
+              </div>
+            </div> -->
+
+            <!-- More Education
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-item-content">
+                <span class="timeline-category"
+                  >2022 – The Idea of Celite.in</span
+                >
+                <div class="timeline-item-date">2023</div>
+                <h3 class="timeline-item-title">
+                  Co-founded Celite.in with the core team.
+                </h3>
+                <h4 class="timeline-item-subtitle">Certification Institute</h4>
+                <p class="timeline-item-description">
+                  Intensive bootcamp covering modern web technologies including
+                  HTML, CSS, JavaScript, Node.js, and React.
+                </p>
+              </div>
+            </div> -->
+
+            <!-- More Experience -->
+            <!-- <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-item-content">
+                <span class="timeline-category">Experience</span>
+                <div class="timeline-item-date">2013 - 2025</div>
+                <h3 class="timeline-item-title">video editor</h3>
+                <h4 class="timeline-item-subtitle">arakalgam</h4>
+                <p class="timeline-item-description">
+                  Developed video editing skills and worked on various projects.
+                </p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>          
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <div class="underline"></div>
+        </div>
+         <!---
+        <div class="project-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">React</button>
+          <button class="filter-btn" data-filter="ui">three js</button>
+          <button class="filter-btn" data-filter="app">VIDEO EDITING</button>
+        </div>
+      -->
+      
+        <div class="projects-grid">
+          <!-- Project 1 
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="assets/spoit.jpg" alt="Project 1" />
+            </div>
+            <div class="project-content">
+              <h3>SPOTIFY</h3>
+              <p>
+                I just completed an exciting project where I built a Spotify
+                clone using React and Tailwind CSS! Through this experience
+              </p>
+              <div class="project-tags">
+                <span>TAILWIND CSS</span>
+                <span>REACT</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://spotify-clone-by-thavasiva.netlify.app/"
+                  class="btn btn-sm"
+                  >Live Demo</a
+                >
+                <a href="#" class="btn btn-sm btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Project 2 
+          <div class="project-card" data-category="ui">
+            <div class="project-img">
+              <img src="assets/apple.png" alt="Project 2" />
+            </div>
+            <div class="project-content">
+              <h3>Project Title 2</h3>
+              <p>
+                My Apple iPhone 15 Pro Clone Project Using Three.js and GSAP
+                Animations..... I recently explored advanced techniques in
+                Three.js and took a crash course in GSAP to create an
+                interactive iPhone 15 Pro clone.
+              </p>
+              <div class="project-tags">
+                <span>Figma</span>
+                <span>three js</span>
+                <span>GSAP</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://inspiring-choux-2abbe0.netlify.app/"
+                  class="btn btn-sm"
+                  >Live Demo</a
+                >
+                <a href="#" class="btn btn-sm btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div> 
+        -->
+        <!---
+          project 3 
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="assets/thava.png" alt="Project 3" />
+            </div>
+            <div class="project-content">
+              <h3>portfolio</h3>
+              <p>
+                Making Portfolio Project with React,Tailwind CSS,Framer Motion
+                for Animation..
+              </p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>tailwind css</span>
+                <span>javascript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://thavasiva-portfolio.netlify.app/"
+                  class="btn btn-sm"
+                  >Live Demo</a
+                >
+                <a href="#" class="btn btn-sm btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div>
+        -->
+        
+          <!-- Project 4 
+          <div class="project-card" data-category="app">
+            <div class="project-img">
+              <img src="assets/celite.png" alt="Project 4" />
+            </div>
+            <div class="project-content">
+              <h3>celite.in</h3>
+              <p>
+                Place of Creativity Your Ultimate Destination Where Ideas
+                Blossom, Imagination Thrives, and Creativity Finds Its Home
+              </p>
+              <div class="project-tags">
+                <span>video editing</span>
+                <span>after effects</span>
+                <span>wordpress</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://celite.in/?srsltid=AfmBOop-YSOcpLSuTbU7_3j3oOSB6ZVTXM-2lfSBKsj33LL-gQayOIvi"
+                  class="btn btn-sm"
+                  >Live Demo</a
+                >
+                <a href="#" class="btn btn-sm btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div>
+        -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <div class="underline"></div>
+        </div>
+      
+        <div class="testimonials-container">
+          <div class="testimonial-wrapper">
+            <!-- Testimonial 1 --
+            <div class="testimonial active">
+              <div class="testimonial-content">
+                <div class="quote">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p>
+                  "Working with Thavasiva has been a game-changer. His ability
+                  to understand both frontend and backend problems and solve
+                  them with precision is something I truly admire. He's the kind
+                  of developer every team needs—reliable, calm, and always one
+                  step ahead."
+                </p>
+                <div class="testimonial-info">
+                  <h4>Anandha Kumaran</h4>
+                  <p>UI/UX Designer, Celite.in</p>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Testimonial 2 --
+            <div class="testimonial">
+              <div class="testimonial-content">
+                <div class="quote">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p>
+                  "Whenever we have a design idea, Thavasiva brings it to life
+                  with such clean code and smooth functionality. He never says
+                  'it can't be done'—he finds a way. That problem-solving
+                  mindset makes him an essential part of our journey."
+                </p>
+                <div class="testimonial-info">
+                  <h4>Karthikeyan</h4>
+                  <p>Frontend Developer, Celite.in</p>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Testimonial 3 --
+            <div class="testimonial">
+              <div class="testimonial-content">
+                <div class="quote">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p>
+                  "I've seen few people with the level of patience and attention
+                  to detail Thavasiva brings to backend logic and database
+                  optimization. He has a natural ability to simplify complex
+                  workflows."
+                </p>
+                <div class="testimonial-info">
+                  <h4>Sreram</h4>
+                  <p>backend developer, Celite.in</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!---- Testimonial Controls --
+          <div class="testimonial-controls">
+            <div class="testimonial-dots">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+            </div>
+            <div class="testimonial-arrows">
+              <button class="arrow prev-arrow">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="arrow next-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section> 
+  
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Resume</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="resume-content">
+          <p>
+            View my resume to learn more about my professional journey, skills,
+            and experience.
+          </p>
+          <a href="assets/resume.pdf" class="btn btn-primary" download>
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Me</h2>
+          <div class="underline"></div>
+        </div>
+
+        <!-- Business Card -->
+        <div class="business-card-container">
+          <div class="business-card">
+            <div class="business-card-front">
+              <div class="business-card-logo">NK</div>
+              <h3>Nikhil Kumar</h3>
+              <p class="business-card-title"> Jr. Tech professional</p>
+            </div>
+            <div class="business-card-back">
+              <div class="business-card-info">
+                <div class="business-card-item">
+                  <i class="fas fa-envelope"></i>
+                  <p>devnikhil19@gmail.com</p>
+                </div>
+                <div class="business-card-item">
+                  <i class="fas fa-phone"></i>
+                  <p>+91 6202536561</p>
+                </div>
+                <div class="business-card-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>Chennai, Tamil Nadu</p>
+                </div>
+                <div class="business-card-item">
+                  <i class="fas fa-globe"></i>
+                  <p>www.nikhildev.com.np</p>
+                </div>
+              </div>
+              <div class="business-card-social">
+                <a href="https://www.linkedin.com/in/nikhil0xsec/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Nikhil0xSec"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/devnikhil2004"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="assets/Nikhil_business_card.png" class="btn btn-primary download-card" download>
+            <i class="fas fa-download"></i> Download Business Card
+          </a>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <h3>Email</h3>
+              <p>devnikhil19@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <h3>Phone</h3>
+              <p>+91 6202536561</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Location</h3>
+              <p>Chennai, Tamil Nadu</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+                <small class="error-message"></small>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+                <small class="error-message"></small>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+                <small class="error-message"></small>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/nikhil0xsec/" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Nikhil0xSec" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/devnikhil2004" class="social-link"><i class="fab fa-twitter"></i></a>
+         <!-- <a href="#" class="social-link"><i class="fab fa-TryHackMe"></i></a> -->
+        </div>
+
+        <p class="copyright">
+          &copy; <span id="year"></span> Nikhil. All Rights Reserved.
+        </p>
+        
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+

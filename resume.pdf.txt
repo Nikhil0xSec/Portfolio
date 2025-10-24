@@ -1,0 +1,10 @@
+This is a placeholder for the PDF resume.
+
+In a real portfolio, replace this file with an actual PDF resume.
+
+The HTML includes a download link at:
+<a href="resume.pdf" class="btn btn-primary" download>
+    <i class="fas fa-download"></i> Download Resume
+</a>
+
+Make sure to create or upload a PDF file named "resume.pdf" in the root directory of your portfolio website. 
